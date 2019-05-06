@@ -1,3 +1,4 @@
+export {};
 const program = require('commander');
 const { models } = require('../models');
 const seedUsers = require('./users.seed');

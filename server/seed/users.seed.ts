@@ -1,3 +1,4 @@
+export {};
 const { User } = require('../models').models;
 
 const { Users } = require('../secrets/seedValues');

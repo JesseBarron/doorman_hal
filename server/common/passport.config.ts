@@ -1,4 +1,5 @@
-const passport = require('passport')
+export {};
+const passport = require('passport');
 const CustomStrategy = require('passport-custom')
 const { User } = require('../models').models;
 
@@ -23,7 +24,7 @@ passport.use('local-general', new CustomStrategy( async (req, done) => {
 
     done(null, user)
   } catch (err) {
-    done(err)
+    done(err.message)
   }
 }));
 
