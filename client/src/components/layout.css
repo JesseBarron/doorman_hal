@@ -2,8 +2,16 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: rgb(160,193,209);
+  background: linear-gradient(25deg, rgba(160,193,209,1) 0%, rgba(218,223,247,1) 100%);
+  background-repeat: no-repeat;
+  min-height: 100%;
+
 }
+/* Colors : https://coolors.co/dadff7-232c33-5a7d7c-9c78cc-b9ffb7 */
 body {
+  /* border: 10px solid rgb(113,45,162); */
+  height: 100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
